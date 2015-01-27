@@ -89,6 +89,7 @@ margin-bottom: 1px;
 	margin: 1em;
 	color: #29578C;
 	font-family: sans-serif;
+	border: 1px solid #000;
 }
 li.surf{
 	background-position: 0 0;
@@ -116,7 +117,21 @@ li.taller{
 }
 
 
+/*																Articulos */
+article{
+	border: 1px solid #000;
+	width: 45%;
+	float: left;
+	padding: 2%;
+	text-align: left;
+}
+article img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+article h2, article p{
 
+}
 /*																elementos auxiliares*/
 .clearfix:after {
     visibility: hidden;
