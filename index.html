@@ -17,7 +17,7 @@
         <meta name="format-detection" content="telephone=no"><!-- Deshabilita la detección de teléfonos y mails en dispositivos que tengan Safari -->
         <link rel="shortcut icon" href="/favicon.png"><!-- Favicon -->
         <!--CSS-->
-        <link rel='stylesheet' id='wopatec_style-css'  href='css/stylePDI.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='wopatec_style-css'  href='css/style.css' type='text/css' media='all' />
         <!--JS-->
         <script type='text/javascript' src='js/modernizr.js'></script>
         <script type='text/javascript' src='js/jquery-2.1.3.min.js'></script>
@@ -25,70 +25,82 @@
 
     </head>
     <body>
-        <section>
-            <h2>Noticias</h2>
-            <article class="principal">
-                <div class="left">
-                    <img src="imag/edificio.jpg" alt="edificio PDI" /> 
-                </div>
-                <div class="left">
-                    <h3>Remodelación de nuestra infraestructura</h3>
-                    <span class="data fecha">01 de enero del 2014</span>
-                    <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir">Ver más</a></span>
-                    <ul class="thumb">
-                        <li><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
-                        <li><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
-                        <li><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
-                        <li><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
-                    </ul>                    
-                    <div id="js_open" class="textos" style="display:none">
-                        <p>
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        </p>
-                        <p>
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        </p>
-                        <p>
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        </p>
-                        <p>
-                            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        </p>
-                        <a href="#" title="Cerrara Ventana" class="evt" data-func="cerrar">Cerrar</a>
+        <div class="mainWrap">
+            <section class="main">
+                <h2>Noticias</h2>
+                <article class="principal row clearfix">
+                    <div class="col6">
+                        <img src="imag/edificio.jpg" alt="edificio PDI" /> 
                     </div>
+                    <div class="col6 clearfix">
+                        <h3>Remodelación de nuestra infraestructura</h3>
+                        <span class="data fecha">01 de enero del 2014</span>
+                        <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir" data-news="1">Ver más</a></span>
+                        <ul class="thumb row">
+                            <li class="col3"><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
+                            <li class="col3"><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
+                            <li class="col3"><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
+                            <li class="col3"><a href="#" title="ver noticia sobre el edificio"><img src="imag/automovil.jpg" alt="edificio PDI" /></a></li>
+                        </ul>                    
+                        <div id="js_open" class="textos row" style="display:none;"  >
+                            <p class="col3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p class="col3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p class="col3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p class="col3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a href="#" title="Cerrara Ventana" class="evt" data-func="cerrar">Cerrar</a>
+                        </div>
+                    </div>
+                </article>
+                <div class="row clearfix">
+                    <article  class="secondary col3">
+                        <img src="imag/detenido.jpg" alt="edificio PDI" /> 
+                        <h3>Remodelación de nuestra infraestructura </h3>
+                        <span class="data fecha">01 de enero del 2014</span>
+                        <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir" data-news="1">Ver más</a></span>                        
+                    </article>            
+                    <article  class="secondary col3">
+                        <img src="imag/detenido.jpg" alt="edificio PDI" /> 
+                        <h3>Remodelación de nuestra infraestructura </h3>
+                        <span class="data fecha">01 de enero del 2014</span>
+                        <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir" data-news="1">Ver más</a></span>                        
+                    </article>            
+                    <article  class="secondary col3">
+                        <img src="imag/detenido.jpg" alt="edificio PDI" /> 
+                        <h3>Remodelación de nuestra infraestructura </h3>
+                        <span class="data fecha">01 de enero del 2014</span>
+                        <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir" data-news="1">Ver más</a></span>                        
+                    </article>            
+                    <article  class="secondary col3">
+                        <img src="imag/detenido.jpg" alt="edificio PDI" /> 
+                        <h3>Remodelación de nuestra infraestructura </h3>
+                        <span class="data fecha">01 de enero del 2014</span>
+                        <span class="data link"><a href="#" title="ver más sobre noticia" class="evt" data-func="abrir" data-news="1">Ver más</a></span>                        
+                    </article>
                 </div>
-            </article>
-            <article  class="secondary">
-                <img src="imag/detenido.jpg" alt="edificio PDI" /> 
-                <h3>Remodelación de nuestra infraestructura </h3>
-            </article>            
-            <article  class="secondary">
-                <img src="imag/detenido.jpg" alt="edificio PDI" /> 
-                <h3>Remodelación de nuestra infraestructura </h3>
-            </article>            
-            <article  class="secondary">
-                <img src="imag/detenido.jpg" alt="edificio PDI" /> 
-                <h3>Remodelación de nuestra infraestructura </h3>
-            </article>            
-            <article  class="secondary">
-                <img src="imag/detenido.jpg" alt="edificio PDI" /> 
-                <h3>Remodelación de nuestra infraestructura </h3>
-            </article>            
-        </section>
+            </section>
+            <footer>
+                <div class="banner">
+                    <a href="#" title="banner"><img src="imag/banner_inferior.png" alt="edificio PDI" /> </a>
+                </div>
+                <div class="bottom">
+                    <span class="left"><a href="mailto:contacto@ida.cl" title="ver más sobre noticia">Contáctenos en contacto@ida.cl</a></span>
+                    <span class="rigth"><a href="#" title="ver más sobre noticia">JENAPU</a></span>
+                </div>
+
+            </footer>
+        </div>
         <aside>
             <div class="banner">
-                <a href="#" title="ver más sobre noticia"><img src="#" alt="edificio PDI" /> </a>
+                <a href="#" title="banner"><img src="imag/banner_lateral.png" alt="banner" /> </a>
             </div>
-        </aside>
-        <footer>
-            <div class="banner">
-                <a href="#" title="ver más sobre noticia"><img src="#" alt="edificio PDI" /> </a>
-            </div>
-            <div>
-                <span class="left"><a href="#" title="ver más sobre noticia">Ver más</a></span>
-                <span class="rigth"><a href="#" title="ver más sobre noticia">Ver más</a></span>
-            </div>
-
-        </footer>
+        </aside>           
     </body>
 </html>	
